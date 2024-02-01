@@ -6,7 +6,7 @@ leakpwd ="/home/kali/Desktop/weakpasswords"
 with open(leakpwd, 'r') as file:
 weakpassword = file.readlines()
 #we are using iteration as the list in the text file the passwords have to be hashed. If 
-we don’t use the for loop the file will be hashed.
+#we don’t use the for loop the file will be hashed.
 for line in weakpassword:
 password = line.strip()
 #performing hashing of the passwords.
